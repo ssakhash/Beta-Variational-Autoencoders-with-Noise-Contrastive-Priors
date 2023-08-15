@@ -4,11 +4,11 @@
 This project implements a Beta-Variational Autoencoder (Beta-VAE) with Noise Contrastive Priors. Beta-VAEs are a type of Variational Autoencoder (VAE) that constrains the capacity of the latent space using an additional hyperparameter, β. This encourages the model to learn more interpretable, disentangled representations. The Noise Contrastive Priors (NCP) technique further enhances this project by introducing an energy-based binary classifier trained to distinguish between the posterior samples and noise samples in the latent space.
 
 ## Requirements
-Python 3.x
-PyTorch
-NumPy
-Matplotlib
-torchvision
+- Python 3.x
+- PyTorch
+- NumPy
+- Matplotlib
+- torchvision
 
 ## Installation
 ```
